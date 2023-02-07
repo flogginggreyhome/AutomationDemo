@@ -1,0 +1,5 @@
+C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\obj\Debug\net6.0\AutomationDemo.csproj.AssemblyReference.cache
+C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\obj\Debug\net6.0\AutomationDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\obj\Debug\net6.0\AutomationDemo.AssemblyInfoInputs.cache
+C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\obj\Debug\net6.0\AutomationDemo.AssemblyInfo.cs
+C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\obj\Debug\net6.0\AutomationDemo.csproj.CoreCompileInputs.cache
