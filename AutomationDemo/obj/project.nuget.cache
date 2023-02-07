@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F7et0Gyhnk6WQqy/AS0oJAiKIBDvKqinu8wOtpqfSeFYpg+IGM+1TW8Bz5Ra/isAJ17/Y37Zf2QVwIxnM/zRfw==",
+  "dgSpecHash": "hmfBH9nWndWTeuA9YIhuSFXhOi1GWqbYTYuLMIzH4003oAtnWQQljQX0d1GWPdBzvA7fIb/ZZbSjRBWHdguDIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\huntg\\source\\repos\\AutomationDemo\\AutomationDemo\\AutomationDemo.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,13 @@
     "C:\\Users\\huntg\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\huntg\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\huntg\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\huntg\\.nuget\\packages\\nunit.console\\3.16.2\\nunit.console.3.16.2.nupkg.sha512",
     "C:\\Users\\huntg\\.nuget\\packages\\nunit.consolerunner\\3.16.2\\nunit.consolerunner.3.16.2.nupkg.sha512",
+    "C:\\Users\\huntg\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",
+    "C:\\Users\\huntg\\.nuget\\packages\\nunit.extension.nunitv2driver\\3.8.0\\nunit.extension.nunitv2driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\huntg\\.nuget\\packages\\nunit.extension.nunitv2resultwriter\\3.6.0\\nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512",
+    "C:\\Users\\huntg\\.nuget\\packages\\nunit.extension.teamcityeventlistener\\1.0.7\\nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
+    "C:\\Users\\huntg\\.nuget\\packages\\nunit.extension.vsprojectloader\\3.8.0\\nunit.extension.vsprojectloader.3.8.0.nupkg.sha512",
     "C:\\Users\\huntg\\.nuget\\packages\\nunit3testadapter\\4.3.1\\nunit3testadapter.4.3.1.nupkg.sha512",
     "C:\\Users\\huntg\\.nuget\\packages\\selenium.support\\4.8.0\\selenium.support.4.8.0.nupkg.sha512",
     "C:\\Users\\huntg\\.nuget\\packages\\selenium.webdriver\\4.8.0\\selenium.webdriver.4.8.0.nupkg.sha512",

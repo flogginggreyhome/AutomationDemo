@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.16.2.0" clr-version="4.0.30319.42000" start-time="2023-02-07 22:03:16Z" end-time="2023-02-07 22:03:20Z" duration="3.952160">
+  <command-line><![CDATA[C:\Users\huntg\.nuget\packages\nunit.consolerunner\3.16.2\nunit.consolerunner.3.16.2\tools\nunit3-console  C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\bin\Debug\net6.0\AutomationDemo.dll --where "cat == test"]]></command-line>
+  <filter>
+    <cat>test</cat>
+  </filter>
+  <test-suite type="Assembly" id="1-1002" name="AutomationDemo.dll" fullname="C:/Users/huntg/source/repos/AutomationDemo/AutomationDemo/bin/Debug/net6.0/AutomationDemo.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-02-07T22:03:17.2113066Z" end-time="2023-02-07T22:03:20.7922838Z" duration="3.580939" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.13.3.0" clr-version="6.0.13" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo" machine-name="DESKTOP-F896F8K" user="huntg" user-domain="DESKTOP-F896F8K" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="16" />
+    </settings>
+    <properties>
+      <property name="_PID" value="21248" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1003" name="AutomationDemo" fullname="AutomationDemo" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-02-07T22:03:17.2144979Z" end-time="2023-02-07T22:03:20.7922806Z" duration="3.577782" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="1-1004" name="TestSuite1" fullname="AutomationDemo.TestSuite1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-02-07T22:03:17.2147263Z" end-time="2023-02-07T22:03:20.7922720Z" duration="3.577546" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestFixture" id="1-1000" name="Tests" fullname="AutomationDemo.TestSuite1.Tests" classname="AutomationDemo.TestSuite1.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-02-07T22:03:17.2154497Z" end-time="2023-02-07T22:03:20.7920782Z" duration="3.576629" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="1-1001" name="Test1" fullname="AutomationDemo.TestSuite1.Tests.Test1" methodname="Test1" classname="AutomationDemo.TestSuite1.Tests" runstate="Runnable" seed="651284575" result="Passed" start-time="2023-02-07T22:03:17.2169134Z" end-time="2023-02-07T22:03:20.7904172Z" duration="3.573557" asserts="1">
+            <properties>
+              <property name="Category" value="test" />
+            </properties>
+            <output><![CDATA[Google
+Google equals Google
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

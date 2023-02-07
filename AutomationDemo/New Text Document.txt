@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\NUnit 2.6.3\bin\nunit-x86.exe" $C:\Users\huntg\source\repos\AutomationDemo\AutomationDemo\bin\Debug\net6.0\AutomationDemo.dll /run

@@ -9,6 +9,7 @@ using OpenQA.Selenium.Support.UI;
 using NUnit.Framework;
 using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using OpenQA.Selenium.Chrome;
+using AutomationDemo.PageObjects;
 
 namespace AutomationDemo
 {
@@ -16,7 +17,9 @@ namespace AutomationDemo
     public class TestSteps
     {
 
-        IWebDriver _driver = new ChromeDriver();
+        IWebDriver _driver;
+       
+
 
         public TestSteps()
         {
@@ -24,14 +27,25 @@ namespace AutomationDemo
 
         public void StartUp()
         {
-            WebDriverWait _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
+            _driver = new ChromeDriver();
             _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
-            _driver.Navigate().GoToUrl("www.google.com");
             _driver.Manage().Window.Maximize();
+        }
+        public void Quit()
+        {
+            _driver.Quit();
         }
 
         public void NavigatetoGoogle()
         {
+            GoogleHome searchPage = new GoogleHome(_driver);
+            searchPage.NavigatetoGoogle();
+        }
+
+        public void SearchQuery()
+        {
+            GoogleHome searchPage = new GoogleHome(_driver);
+            searchPage.SearchQuery();
 
         }
     }
